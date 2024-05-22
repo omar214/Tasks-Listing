@@ -10,6 +10,7 @@ import Tasks from './pages/Tasks';
 
 import { ROUTES } from './constants/routes';
 import PrivateRoute from './shared/PrivateRoute.jsx';
+import Layout from './shared/Layout.jsx';
 
 function App() {
 	const routes = [
@@ -18,7 +19,9 @@ function App() {
 			path: ROUTES.DASHBOARD,
 			element: (
 				<PrivateRoute>
-					<Tasks />
+					<Layout>
+						<Tasks />
+					</Layout>
 				</PrivateRoute>
 			),
 		},
