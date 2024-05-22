@@ -28,9 +28,17 @@ function ResponsiveAppBar() {
 	};
 
 	return (
-		<AppBar position="static">
+		<AppBar position="static" sx={{ background: '#1C1E2E' }}>
 			<Container maxWidth="xl">
-				<Toolbar disableGutters sx={{ paddingX: 2 }}>
+				<Toolbar
+					disableGutters
+					sx={{
+						paddingX: {
+							xs: 0,
+							md: 2,
+						},
+					}}
+				>
 					<Typography
 						variant="h6"
 						noWrap
