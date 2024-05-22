@@ -36,7 +36,14 @@ const Tasks = () => {
 
 		if (!result.isConfirmed) return console.log('No');
 
-		setTasks(tasks.filter((task) => task.id !== id));
+		setTasks((prevTasks) => {
+			localStorage.setItem(
+				'tasks',
+				JSON.stringify(prevTasks.filter((task) => task.id !== id)),
+			);
+			return prevTasks.filter((task) => task.id !== id);
+		});
+
 		Swal.fire({
 			title: 'Deleted!',
 			text: 'Your Task has been deleted.',

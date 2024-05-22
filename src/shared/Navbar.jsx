@@ -23,7 +23,7 @@ function ResponsiveAppBar() {
 	};
 
 	const handleLogout = () => {
-		localStorage.clear();
+		localStorage.removeItem('isAuthenticated');
 		window.location.reload();
 	};
 
