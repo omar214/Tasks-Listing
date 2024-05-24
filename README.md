@@ -61,8 +61,24 @@ yarn start
 
 ## 🎥 Demo<a name = "demo"></a>
 
+**Desktop Demo**
+
+--- 
+
 <div name = "demo" align="center" width=1189>
 
-insert demo here
+https://github.com/omar214/Tasks-Listing/assets/60351557/8f131647-c842-47bc-ab94-82da030570c7
+
+</div>
+
+**Mobile Demo**
+
+--- 
+
+<div name = "demo" align="center" width=1189>
+
+
+https://github.com/omar214/Tasks-Listing/assets/60351557/9b3d2c55-e282-4fd8-9bbc-91b0b61f24aa
+
 
 </div>
