@@ -8,7 +8,6 @@
 - [Technologies used](#build)
 - [getting started](#start)
 - [Demo](#demo)
-- [screenshots](#screenshots)
 
 ## 🚩About<a name = "about"></a>
 
